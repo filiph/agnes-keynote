@@ -1,0 +1,63 @@
+/* @override http://127.0.0.1:3030/Users/filiph/dev/agnes-console/agnes_console.css */
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+padding: 0;
+margin: 0;
+}
+
+p {
+  color: #fff;
+}
+
+div#controls {
+	position: absolute;
+	z-index: 1000;
+	background: blue;
+	bottom: 0;
+  display:none;
+}
+
+#container {
+	z-index: 10;
+  	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.agnes-glitch {
+  background: url(mothership_512x512.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+#text {
+  padding-top: 20%;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 250%;
+  text-align: left;
+  /*white-space: pre;*/
+}
+
+#text em {
+  padding: 0.1em;
+  color: red;
+  font-weight: bold;
+  font-style: normal;
+}
+
+div#background {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	/*background: url(agnes-video-still.png);*/
+}
